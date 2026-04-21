@@ -1,0 +1,427 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: rgb(59, 246, 134);
+  background: linear-gradient(
+    179deg,
+    rgba(59, 246, 134, 1) 0%,
+    rgba(76, 169, 255, 1) 100%
+  );
+  cursor: pointer;
+}
+
+body {
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+.container-1 {
+  width: 80%;
+  margin: auto;
+}
+
+.top_content_1 {
+  padding-top: 50px;
+  max-width: 80%;
+  font-size: 56px;
+  font-family: "Sora", sans-serif;
+  font-weight: 700;
+}
+
+.top_content_1 p {
+  background: rgb(59, 246, 134);
+  background: linear-gradient(
+    176deg,
+    rgba(59, 246, 134, 1) 0%,
+    rgba(76, 169, 255, 1) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.mid_content_1 {
+  display: flex;
+  gap: 200px;
+  margin-top: 80px;
+}
+
+.left_content_1 {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.left_content_1 .border_img_content_1 {
+  width: 100%;
+  height: 220px;
+  padding: 5px;
+  border-radius: 100%;
+  background: rgb(59, 246, 134);
+  background: linear-gradient(
+    159deg,
+    rgba(59, 246, 134, 1) 0%,
+    rgba(76, 169, 255, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left_content_1 .border_2_img {
+  width: 100%;
+  height: 100%;
+  background-color: #3a3636;
+  border-radius: 100%;
+}
+
+.left_content_1 .border_2_img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+
+.teks_mid h5 {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Sora", sans-serif;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.teks_mid p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #d6d6d6;
+}
+
+.icon_content_1 h5 {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Sora", sans-serif;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.icon_content_1 .icon_class {
+  display: flex;
+  gap: 20px;
+}
+
+.icon_class a {
+  text-decoration: none;
+}
+
+.icon_content_1 .ri-instagram-line {
+  font-size: 34px;
+  color: white;
+}
+
+.icon_content_1 .ri-github-fill {
+  font-size: 34px;
+  color: white;
+}
+
+/* --------CONTAINER-2--------- */
+
+.container-2 {
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.container-2 .title_container_2 {
+  max-width: 60%;
+  font-size: 48px;
+  font-family: "Sora", sans-serif;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.cup_artikel_1 {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 80px;
+}
+
+.border_cuplikan_artikel {
+  width: 50%;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.border_cuplikan_artikel img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.teks_cuplikan_artikel {
+  width: 50%;
+  /* padding-top: 20px; */
+}
+
+.teks_cuplikan_artikel span {
+  font-size: 18px;
+  color: #ababab;
+}
+
+.teks_cuplikan_artikel h5 {
+  font-size: 36px;
+  font-weight: 600;
+  font-family: "Sora", sans-serif;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.teks_cuplikan_artikel p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #d6d6d6;
+}
+
+.teks_cuplikan_artikel a {
+  text-decoration: none;
+}
+
+.btn_read_more {
+  background-color: #333333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+/* _________KONTAKKK______ */
+.kontak {
+  width: 80%;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.kontak h2 {
+  font-size: 32px;
+}
+
+.kontak table {
+  width: 95%;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.kontak table tr th {
+  text-align: left;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.kontak table tr td {
+  text-align: left;
+}
+
+.kontak input {
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  border: 1px solid #333333;
+  border-radius: 5px;
+}
+
+#message {
+  height: 100px;
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  background-color: #333333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .container-1,
+  .container-2,
+  .kontak {
+    width: 90%;
+  }
+
+  .top_content_1 {
+    font-size: 40px;
+  }
+
+  .mid_content_1 {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .left_content_1 {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .left_content_1 .border_img_content_1 {
+    height: 180px;
+  }
+
+  .teks_mid h5 {
+    font-size: 20px;
+  }
+
+  .teks_mid p {
+    font-size: 16px;
+  }
+
+  .icon_content_1 h5 {
+    font-size: 20px;
+  }
+
+  .icon_content_1 .icon_class {
+    justify-content: center;
+  }
+
+  .container-2 .title_container_2 {
+    font-size: 36px;
+  }
+
+  .cup_artikel_1 {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .border_cuplikan_artikel {
+    width: 100%;
+    height: 200px;
+  }
+
+  .teks_cuplikan_artikel {
+    width: 100%;
+  }
+
+  .teks_cuplikan_artikel h5 {
+    font-size: 28px;
+  }
+
+  .teks_cuplikan_artikel p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .top_content_1 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .mid_content_1 {
+    gap: 30px;
+  }
+
+  .left_content_1 .border_img_content_1 {
+    height: 150px;
+  }
+
+  .teks_mid h5,
+  .icon_content_1 h5 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .teks_mid p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .icon_content_1 .icon_class {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .container-2 .title_container_2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .cup_artikel_1 {
+    gap: 20px;
+  }
+
+  .border_cuplikan_artikel {
+    height: 150px;
+  }
+
+  .teks_cuplikan_artikel h5 {
+    font-size: 24px;
+  }
+
+  .teks_cuplikan_artikel p {
+    font-size: 12px;
+  }
+
+  .kontak h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .kontak table {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .top_content_1 {
+    font-size: 24px;
+  }
+
+  .left_content_1 .border_img_content_1 {
+    height: 120px;
+  }
+
+  .teks_mid h5,
+  .icon_content_1 h5 {
+    font-size: 16px;
+  }
+
+  .teks_mid p {
+    font-size: 12px;
+  }
+
+  .container-2 .title_container_2 {
+    font-size: 20px;
+  }
+
+  .border_cuplikan_artikel {
+    height: 120px;
+  }
+
+  .teks_cuplikan_artikel h5 {
+    font-size: 20px;
+  }
+
+  .teks_cuplikan_artikel p {
+    font-size: 10px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+}

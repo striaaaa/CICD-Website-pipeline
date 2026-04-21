@@ -1,0 +1,64 @@
+.container-1 {
+  width: 80%;
+  margin: auto;
+}
+
+.container-1 h5 {
+  width: 80%;
+  font-size: 84px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-family: "Sora", sans-serif;
+  padding-top: 50px;
+}
+
+.container-content-artikel a {
+  text-decoration: none;
+  color: white;
+}
+
+.content-page-artikel {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.content-page-artikel:hover {
+  transform: translateY(-10px);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.content-page-artikel .left-content-page-artikel {
+  width: 50%;
+}
+
+.left-content-page-artikel span {
+  font-size: 14px;
+  color: #ababab;
+}
+
+.left-content-page-artikel h6 {
+  font-size: 36px;
+  font-weight: 600;
+  font-family: "Sora", sans-serif;
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+
+.left-content-page-artikel p {
+  font-size: 18px;
+  color: #ababab;
+}
+
+.right-content-page-artikel {
+  width: 40%;
+  height: 250px;
+}
+
+.right-content-page-artikel img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
