@@ -1,22 +1,29 @@
-name: Deploy Website CI/CD
+name:Deploy Website CI/CD
 
 on:
-  push:
-    branches: [ main ]
+push:
+branches:
+main
 
 jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      
-      - name: Setup SSH
-        run: |
-          mkdir -p ~/.ssh
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/tes_server_polindra
-          chmod 600 ~/.ssh/tes_server_polindra
-          ssh-keyscan -p 8022 -H ${{ secrets.SERVER_IP }} >> ~/.ssh/known_hosts
-      
-      - name: Deploy to Server
-        run: |
-          rsync -avz --delete -e "ssh -p 8022 -i ~/.ssh/tes_server_polindra" ./ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }}:${{ secrets.DEPLOY_PATH }}
+deploy:
+runs-on:ubuntu-latest
+
+steps:
+name:Checkout Repository
+uses:actions/checkout@v4
+
+name:Setup SSH
+run:
+mkdir -p ~/.ssh
+echo"${{secrets.SSH_PRIVATE_KEY}}">~/.ssh/tes_server_polindra
+chmod 600 ~/.ssh/tes_server_polindra
+ssH-keyscan-p8022-H${{secrets.SERVER IP }}>>~/.ssh/know_hosts
+
+name:Deploy to Server
+run:
+rsync -avz --delete\
+-e"ssh
+-p8022-i~/.ssh/tes_server_polindra"
+
+${{ secrets.SERVER USER }@${{ secrets.SERVER IP }}:${{ secrets.DEPLOY_PATH }}
